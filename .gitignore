@@ -1,0 +1,12 @@
+# Per-app build output
+*/build/
+*/out/
+
+# Downloaded upstream binaries (fetched at build/first-boot, not committed)
+*/vendor/
+
+# Editor
+.vscode/
+*.swp
+*~
+.DS_Store

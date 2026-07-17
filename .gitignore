@@ -4,6 +4,11 @@
 
 # Downloaded upstream binaries (fetched at build/first-boot, not committed)
 */vendor/
+# ...but the tools' vendored headers ARE committed (see src/vendor/README.md)
+!src/vendor/
+
+# Tools build output (top-level `make`)
+/build/
 
 # Editor
 .vscode/
